@@ -16,7 +16,7 @@ total 8
 drwxr-xr-x 1 yelenago 197121 0 Mar 31 19:31 ./
 drwxr-xr-x 1 yelenago 197121 0 Mar 31 19:29 ../
 drwxr-xr-x 1 yelenago 197121 0 Mar 31 19:35 .git/
-
+q
 yelenago@DataUpload MINGW64 /c/LocalRepo (master)
 $ dir
 
@@ -437,3 +437,9 @@ index 0000000..e69de29
 
 yelenago@DataUpload MINGW64 /c/LocalRepo (master)
 $
+
+$ git log --oneline | wc -l
+$ git log --oneline --graph
+$ git shortlog
+$ git show Head~1
+$ git push -u origin master
